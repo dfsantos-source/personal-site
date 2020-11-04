@@ -1,4 +1,5 @@
 import React from "react"
+import pdf from "../static/DANE_SANTOS_RESUME.pdf"
 
 function Navbar() {
     return (
