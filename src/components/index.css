@@ -1,0 +1,115 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Raleway;
+    background-image: url(https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+  }
+  
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.82);
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    padding: 0.3em;
+  }
+  
+  .nav-li {
+    display: inline-block;
+    margin: 0 2em 0 0;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 2em;
+  }
+  
+  section {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2em;
+    color: white;
+  }
+  
+  footer {
+    background: black;
+    color: white;
+    padding: 2em;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 20em;
+  }
+  
+  .element {
+    margin-top: 1.5em;
+    padding-top: 0em;
+    border-radius: 0.5em;
+    box-shadow: 6px 10px 40px 0px rgba(0,0,0,0.75);
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+    border-width: 0.2em;
+    border-color: whie;
+    border-style: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .greeting {
+    text-align: center;
+  }
+  
+  .projects-intro {
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  .skills-intro {
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  
+  #project-desc {
+    text-align: left;
+  }
+  
+  .logos-ul {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  .logo-li {
+    margin: 0 1em 0 1em;
+  }
+  
+  .contact-me {
+    text-align: center;
+  }
+  
+  .made-with-react {
+    margin-top: 10em;
+    color: white;
+    text-align: center;
+  }
