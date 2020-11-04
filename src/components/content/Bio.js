@@ -8,7 +8,7 @@ function Bio() {
             </p>
             <hr/>
             <br/>
-            <img className="profile-pic" width="200px" height="200px" src="profile_pic.jpg" alt="profile-pic"/>
+            <img className="profile-pic" width="200em" height="200em" src="profile_pic-min.jpg" alt="profile-pic"/>
             <p>
             I am currently a second-year student at the University of Massachusetts
             - Amherst, currently pursuing a B.S in Computer Science.
