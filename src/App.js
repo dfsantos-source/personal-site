@@ -5,8 +5,9 @@ import Content from './components/Content'
 import "./App.css"
 
 function App() {
+  
   return (
-    <div style={{fontFamily:"Raleway"}}className="App .html">  
+    <div id="App" style={{fontFamily:"Raleway"}}className="App .html">  
       <Navbar />
       <Content />
     </div>

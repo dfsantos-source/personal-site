@@ -18,7 +18,7 @@ function Bio() {
             I am interested in learning new technologies and skills, as well as challenging
             myself when it comes to problem-solving and critical thinking.
             </p>
-            <p>
+            <p id="projects-anchor">
             Curiosity driven. Always on the lookout for new opportunites for  projects, programs, 
             and positions, to further pursue my passion for Computer Science.
             </p>

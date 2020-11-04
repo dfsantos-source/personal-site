@@ -6,7 +6,7 @@ import Skills from "./content/Skills"
 
 function Content() {
     return (
-        <div className="content">
+        <div id="content" className="content fade-in">
             <Bio />
             <Projects />
             <Skills />
