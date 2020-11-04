@@ -4,7 +4,7 @@ function Bio() {
     return (
         <div className="bio element header">
             <p>
-            <h1 className="greeting" id="start">Hi, my name is Dane!</h1>
+            <h1 className="greeting" id="start">Dane Santos</h1>
             </p>
             <hr/>
             <br/>

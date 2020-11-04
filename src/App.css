@@ -4,7 +4,7 @@ html {
   font-family: Raleway;  
   margin: 0;
   padding: 0;
-  zoom: 0.8;
+  zoom: 0.7;
 }
 
 .App {
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background-image: url(https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url("background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -68,6 +68,11 @@ footer {
   padding-top: 0em;
   border-radius: 0.5em;
   box-shadow: 6px 10px 40px 0px rgba(0,0,0,0.75);
+  transition: transform .2s;
+}
+
+.element:hover {
+  transform: scale(1.05)
 }
 
 .profile-pic {
