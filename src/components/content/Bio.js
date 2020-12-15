@@ -2,13 +2,14 @@ import React from "react"
 
 function Bio() {
     return (
-        <div className="bio element header">
+        <div data-aos="fade-up" id="bio" className="bio element header">
+            <div>
             <p>
             <h1 className="greeting" id="start">Dane Santos</h1>
             </p>
             <hr/>
             <br/>
-            <img className="profile-pic" width="200em" height="200em" src="profile_pic-min.jpg" alt="profile-pic"/>
+            <img className="profile-pic"  src="profile_pic-min.jpg" alt="profile-pic"/>
             <p>
             I am currently a second-year student at the University of Massachusetts
             - Amherst, currently pursuing a B.S in Computer Science.
@@ -22,6 +23,7 @@ function Bio() {
             Curiosity driven. Always on the lookout for new opportunites for  projects, programs, 
             and positions, to further pursue my passion for Computer Science.
             </p>
+            </div>
         </div>
     )
 }
