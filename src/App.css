@@ -18,6 +18,9 @@
     margin-right: -25%;
   }
 
+  #projects {
+    max-height: 25%;
+  }
 
 }
 
