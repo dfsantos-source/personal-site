@@ -12,7 +12,6 @@ function Projects() {
             Constructed a speech recognition application built in Python that converts speech to text and vice-versa for daily-use by building a response from user input.
             </p>
             </div>
-            <div id="contact-anchor"></div>
             <div id="project-desc">
             <ul>
             <li data-aos="fade-right">Incorporated a phrase detection algorithm and geocoder library to display a specific output for the user.</li>
@@ -39,6 +38,7 @@ function Projects() {
             <li id="skills-anchor" data-aos="fade-right">Learned about back-end web development with topics including data security, login and logout functionality,
             permissions, user registration, and CRUD Data.</li>
             <div id="skills-anchor2"></div>
+            <div id="contact-anchor"></div>
             </ul>
             </div>
         </div>
