@@ -12,7 +12,7 @@ function Skills() {
             <div data-aos-anchor="#skills-anchor2" data-aos="fade-right">
             <h3>Technologies</h3>
             <div id="contact-anchor"></div>
-            <p style={{marginTop: "-1em"}}>Git, Unix, Linux, Django, React, JSX, Bootstrap</p>
+            <p style={{marginTop: "-1em"}}>Git/Github, Amazon Web Services (AWS), REST API, Unix, Linux, Django, React, Bootstrap</p>
             </div>            
         </div>
     )
