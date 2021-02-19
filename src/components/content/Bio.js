@@ -3,7 +3,7 @@ import React from "react"
 function Bio() {
     return (
         <div id="bio bio-id" className="bio element header">
-            <div className="divider">
+            <div data-aos="fade-in" className="divider">
             <img className="profile-pic"  src="pfp.jpg" alt="profile-pic"/>
             <p>
             Hi, I'm Dane. I am currently a second-year student at the University of Massachusetts
