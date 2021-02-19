@@ -132,15 +132,15 @@ body {
 .hero {
   background-image: url("hero-background-pic2.jpg");
   background-repeat:no-repeat;
-  background-size:contain;
+  
   background-position:center;
   text-align: center;
   background-color: rgb(0, 0, 0);
   color: white;
   padding-left: 17%;
   padding-right: 17%;
-  padding-top: 10em;
-  padding-bottom: 10em;
+  padding-top: 15em;
+  padding-bottom: 15em;
 }
 
 .skills-intro {
@@ -160,13 +160,15 @@ body {
   color: black;
   padding-left: 20%;
   padding-right: 20%;
-  padding-top: 5em;
+  padding-top: 4em;
   padding-bottom: 5em;
 }
 
 .projects {
   background-color: rgb(250 , 250, 250 );
   color: black;
+  padding-top: 3em;
+  padding-bottom: 4em;
   padding-left: 20%;
   padding-right: 20%;
 }
@@ -176,6 +178,8 @@ body {
   color:black;
   padding-left: 20%;
   padding-right: 20%;  
+  padding-top: 3em;
+  padding-bottom: 4em;
 }
 
 .contact-me {
@@ -184,6 +188,8 @@ body {
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 
