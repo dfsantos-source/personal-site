@@ -1,27 +1,21 @@
-@media only screen and (max-width:620px) {
+@media (max-width:620px) {
   /* For mobile phones: */
   html {
     font-size: 12px;
   }
+  /*
+    margin-left: -25%;
+  */
 
   .content {
-    margin-left: -25%;
-    margin-right: -25%;
-  }
-  .header {
-    margin-left: -25%;
-    margin-right: -25%;
-  }
-
-  .section {
-    margin-left: -25%;
-    margin-right: -25%;
+    margin-left: 0%;
+    margin-right: 0%;
+    max-width: 150%;
   }
 
   #projects {
     max-height: 25%;
   }
-
 }
 
 html {
@@ -38,11 +32,6 @@ html {
 }
 
 body {
-  background-image: url("background-min.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
   font-size: 1.6em;
 }
 
@@ -73,28 +62,14 @@ body {
   color: white;
 }
 
-footer {
-  background: black;
-  color: white;
-  padding: 2em;
-}
 
 .content {
-  display: flex;
-  flex-direction: column;
-  margin-top: 5em;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-bottom: 15em;
+
   
 }
 
 .element {  
-  margin-top: 1.5em;
-  padding-top: 0em;
-  border-radius: 0.5em;
-  box-shadow: 6px 10px 40px 0px rgba(0,0,0,0.75);
-  transition: transform .2s;
+  
 }
 
 .profile-pic {
@@ -135,20 +110,81 @@ footer {
   justify-content: center;
   padding: 0;
   margin: 0;
-  
 }
 
 .logo-li {
   margin: 0 1em 0 1em;
 }
 
-.contact-me {
-  text-align: center;
+.name-big {
+  font-size: 4em;
+  color: rgb(255, 198, 11);
 }
 
-.made-with-react {
-  margin-top: 10em;
-  color: white;
-  text-align: center;
+.projects-intro {
+  text-align: left;
 }
+
+.skills-intro {
+  text-align: left;
+}
+
+.hero {
+  background-image: url("hero-background-pic2.jpg");
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding-left: 17%;
+  padding-right: 17%;
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+
+.skills-intro {
+  color: rgb(255, 166, 0);
+}
+
+.projects-intro {
+  color: rgb(255, 166, 0);
+}
+
+.contactme-intro {
+  color: rgb(255, 166, 0);
+}
+
+.bio {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.projects {
+  background-color: rgb(250 , 250, 250 );
+  color: black;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.skills {
+  background-color:  rgb(255, 255, 255);
+  color:black;
+  padding-left: 20%;
+  padding-right: 20%;  
+}
+
+.contact-me {
+  background-color: rgb(250 , 250, 250 );
+  color: black;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+
 

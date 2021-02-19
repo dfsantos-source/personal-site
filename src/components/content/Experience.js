@@ -5,14 +5,14 @@ import React from "react"
 
 function Experience() {
     return(
-        <div data-aos="fade-right" className="element section experience">
-            <h1 data-aos="fade" className="experience-intro">Experience</h1>
-            <div data-aos="fade-right" className="software-mentorship">
+        <div  className="element section experience">
+            <h1  className="experience-intro">Experience</h1>
+            <div  className="software-mentorship">
             <div className="bulleted-list"> 
             <ul>
-            <li data-aos="fade-right">Detail 1</li>
-            <li data-aos="fade-right">Detail 2</li>
-            <li data-aos="fade-right">Detail 3</li>
+            <li >Detail 1</li>
+            <li >Detail 2</li>
+            <li >Detail 3</li>
             </ul>
             </div>
             </div>

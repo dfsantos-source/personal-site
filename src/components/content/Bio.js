@@ -2,16 +2,11 @@ import React from "react"
 
 function Bio() {
     return (
-        <div data-aos="fade-up" id="bio" className="bio element header">
-            <div>
-            <p>
-            <h1 className="greeting" id="start">Dane Santos</h1>
-            </p>
-            <hr/>
-            <br/>
+        <div id="bio bio-id" className="bio element header">
+            <div className="divider">
             <img className="profile-pic"  src="pfp.jpg" alt="profile-pic"/>
             <p>
-            I am currently a second-year student at the University of Massachusetts
+            Hi, I'm Dane. I am currently a second-year student at the University of Massachusetts
             - Amherst, currently pursuing a B.S in Computer Science.
             </p>
             <p>    

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react"  
+import Hero from "./content/Hero"
 import Bio from "./content/Bio"
 import ContactMe from "./content/ContactMe"
 import Projects from "./content/Projects"
@@ -12,12 +13,11 @@ function Content() {
     }, []);
     return (
         <div id="content" className="content fade-in">
+            <Hero />
             <Bio />
             <Projects />
             <Skills />
             <ContactMe />
-            <br></br>
-            <br></br>
         </div>
     )
 }

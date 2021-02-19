@@ -2,16 +2,16 @@ import React from "react"
 
 function Skills() {
     return (
-        <div className="skills element section">
-            <h1 data-aos="fade" data-aos-anchor="#skills-anchor" id="skills" className="skills-intro">Skills</h1>
-            <hr data-aos="fade" data-aos-anchor="#skills-anchor"></hr>
-            <div data-aos-anchor="#skills-anchor2" data-aos="fade-right">
+        <div id="skills-id" className="skills element section">
+            <h1  id="skills" className="skills-intro">Skills</h1>
+            <hr ></hr>
+            <div>
             <h3>Languages</h3>
             <p style={{marginTop: "-1em"}}>Java, C, Python, Javascript, HTML, CSS</p>
             </div>
-            <div data-aos-anchor="#skills-anchor2" data-aos="fade-right">
+            <div>
             <h3>Technologies</h3>
-            <div id="contact-anchor"></div>
+            <div></div>
             <p style={{marginTop: "-1em"}}>Git/Github, Amazon Web Services (AWS), REST API, Unix, Linux, Django, React, Bootstrap</p>
             </div>            
         </div>
