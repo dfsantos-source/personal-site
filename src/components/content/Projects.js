@@ -8,6 +8,10 @@ function Projects() {
             <div className="speech-app"> 
             <div >
             <h3>Speech Recognition App</h3>
+            <div className="tags">
+                <p className="tag-element python-tag">Python</p>
+                <p className="tag-element restapi-tag">REST API</p>
+            </div>
             <p style={{marginTop: "-1em"}}> 
             Constructed a speech recognition application built in Python that converts speech to text and vice-versa for daily-use by building a response from user input.
             </p>
@@ -23,8 +27,16 @@ function Projects() {
             </div>
             </div>
             <br></br>
+            <br></br>
             <div >
             <h3 id="sharendar">Sharendar</h3>
+            <div className="tags">
+                <p className="tag-element python-tag">Python</p>
+                <p className="tag-element django-tag">Django</p>
+                <p className="tag-element bootstrap-tag">Bootstrap</p>
+                <p className="tag-element html-tag">HTML</p>
+                <p className="tag-element css-tag">CSS</p>
+            </div>
             <p style={{marginTop: "-1em"}}> 
             Collaborating with three others on a calendar web application, currently in development using Django Framework.
             </p>
@@ -37,8 +49,6 @@ function Projects() {
             updates.</li>
             <li id="skills-anchor" >Learned about back-end web development with topics including data security, login and logout functionality,
             permissions, user registration, and CRUD Data.</li>
-            <div id="skills-anchor2"></div>
-            <div id="contact-anchor"></div>
             </ul>
             </div>
         </div>

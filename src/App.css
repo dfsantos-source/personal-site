@@ -32,7 +32,7 @@ html {
 }
 
 body {
-  font-size: 1.6em;
+  font-size: 1.8em;
 }
 
 .navbar {
@@ -48,6 +48,70 @@ body {
 .nav-li {
   display: inline-block;
   margin: 0 2em 0 0;
+}
+
+.tag-element {
+  background-color: #4CAF50;
+  border-radius: 1em;
+  border: none;
+  color: white;
+  padding: 0.4em 1.2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: -1em 0em 2em 0.2em;
+  cursor: pointer;
+  font-size: 0.7em;
+}
+
+.team-tag {
+  background-color: #27bce9;
+}
+
+.csharp-tag {
+  background-color: #ff0000;
+}
+
+.java-tag {
+  background-color: #df3a3a;
+}
+
+.javascript-tag {
+  background-color: #fd26c0;
+}
+
+.python-tag {
+  background-color: #ff0062;
+}
+
+.html-tag {
+  background-color: #daa700;
+}
+
+.css-tag {
+  background-color: #0045ae;
+}
+
+.restapi-tag {
+  background-color: #4b41a5;
+}
+
+.bootstrap-tag {
+  background-color: #32c0b2;
+}
+
+.django-tag {
+  background-color: #0d6f00;
+}
+
+.unity-tag {
+  background-color: #4b2704;
+}
+
+.tags {
+  padding: 0;
+  margin: 0;
+  margin-top: -0.5em;
 }
 
 .header {
@@ -88,17 +152,6 @@ body {
   text-align: center;
 }
 
-.projects-intro {
-  text-align: center;
-  font-size: 2em;
-}
-
-.skills-intro {
-  text-align: center;
-  font-size: 2em;
-}
-
-
 #project-desc {
   text-align: left;
 }
@@ -121,38 +174,38 @@ body {
   color: rgb(255, 198, 11);
 }
 
-.projects-intro {
-  text-align: left;
-}
-
-.skills-intro {
-  text-align: left;
-}
 
 .hero {
   background-image: url("hero-background-pic2.jpg");
   background-repeat:no-repeat;
-  
   background-position:center;
   text-align: center;
   background-color: rgb(0, 0, 0);
   color: white;
   padding-left: 17%;
   padding-right: 17%;
-  padding-top: 20em;
-  padding-bottom: 20em;
+  padding-top: 12em;
+  padding-bottom: 12em;
 }
 
 .skills-intro {
   color: rgb(255, 166, 0);
+  text-align: center;
 }
 
 .projects-intro {
   color: rgb(255, 166, 0);
+  text-align: center;
+}
+
+.experience-intro {
+  color: rgb(255, 166, 0);
+  text-align: center;
 }
 
 .contactme-intro {
   color: rgb(255, 166, 0);
+  text-align: center;
 }
 
 .bio {
@@ -160,36 +213,45 @@ body {
   color: black;
   padding-left: 20%;
   padding-right: 20%;
-  padding-top: 4em;
-  padding-bottom: 5em;
+  padding-top: 6em;
+  padding-bottom: 7em;
+}
+
+.experience {
+  background-color: rgb(250 , 250, 250 );
+  color: black;
+  padding-top: 5em;
+  padding-bottom: 6em;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .projects {
-  background-color: rgb(250 , 250, 250 );
+  background-color: rgb(255, 255, 255);
   color: black;
-  padding-top: 3em;
-  padding-bottom: 4em;
+  padding-top: 5em;
+  padding-bottom: 6em;
   padding-left: 20%;
   padding-right: 20%;
 }
 
 .skills {
-  background-color:  rgb(255, 255, 255);
+  background-color: rgb(250 , 250, 250 );
   color:black;
   padding-left: 20%;
   padding-right: 20%;  
-  padding-top: 3em;
-  padding-bottom: 4em;
+  padding-top: 5em;
+  padding-bottom: 6em;
 }
 
 .contact-me {
-  background-color: rgb(250 , 250, 250 );
+  background-color: rgb(255 , 255, 255 );
   color: black;
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
 
 

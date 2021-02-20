@@ -10,7 +10,7 @@ function Bio() {
             - Amherst, currently pursuing a B.S in Computer Science.
             </p>
             <p>    
-            My plans for the future is to eventually become a full-stack web developer.
+            My plans for the future is to eventually become a software engineer.
             I am interested in learning new technologies and skills, as well as challenging
             myself when it comes to problem-solving and critical thinking.
             </p>
