@@ -2,7 +2,7 @@ import React from "react"
 
 function Bio() {
     return (
-        <div id="bio bio-id" className="bio element header">
+        <div id="bio-id" className="bio element header">
             <div data-aos="fade-in" className="divider">
             <img className="profile-pic"  src="pfp.jpg" alt="profile-pic"/>
             <div className="bio-content">
