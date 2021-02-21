@@ -20,6 +20,7 @@ function Bio() {
             and positions, to further pursue my passion for Computer Science.
             </p>
             </div>
+            <a href="#contactme-id" id="contact-button-id"class="button"><p style={{textDecoration: "none"}}>Contact Me</p></a>
             </div>
         </div>
     )
