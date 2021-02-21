@@ -18,8 +18,7 @@
   }
 
   #line-1-id {
-    margin-left: -2em;
-    font-size: 100%;
+    
   }
 
   #experience-id {
@@ -28,7 +27,7 @@
   }
 
   #contactme-id {
-    background-size: 30%;
+    background-size: 60%;
     background-position-y: bottom;
   }
 
@@ -40,6 +39,10 @@
   #skills-id {
     background-size: 35%;
     background-position-y: bottom;
+  }
+
+  #logos-li-id {
+    margin: 0 1em 0 1em;
   }
 }
 
@@ -192,7 +195,7 @@ body {
 }
 
 .logo-li {
-  margin: 0 4em 0 1em;
+  margin: 0 3em 0 1em;
 }
 
 .name-big {
@@ -300,18 +303,18 @@ body {
 
 .contact-me {
   background-color: rgb(255 , 255, 255 );
-  /* background-image: url("image-team-chat.svg");
+  background-image: url("image-team-chat.svg");
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 15%;
+  background-size: 25%;
   background-position-x: 50%;
-  background-position-y: bottom; */
+  background-position-y: bottom;
   color: black;
   text-align: center;
   padding-left: 25%;
   padding-right: 25%;
   padding-top: 5em;
-  padding-bottom: 8em;
+  padding-bottom: 20em;
 }
 
 .hero-desc {
@@ -319,7 +322,6 @@ body {
 }
 
 .line-1{
-  font-size: 140%;
   position: relative;
   margin: 0 auto;
   border-right: 2px solid rgba(255,255,255,.75);
@@ -330,12 +332,12 @@ body {
 
 /* Animation */
 .anim-typewriter{
-animation: typewriter 4s steps(49) 0.7s 1 normal both,
-           blinkTextCursor 700ms steps(49) infinite normal;
+animation: typewriter 4.5s steps(25) 0.7s 1 normal both,
+           blinkTextCursor 700ms steps(25) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 49ch;}
+  to{width: 25ch;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}

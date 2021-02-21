@@ -9,7 +9,7 @@ function Hero() {
             </p>
             <div className="hero-desc">
             <p id="line-1-id" className="anim-typewriter line-1">
-                UMass Amherst Sophomore Computer Science Student. 
+                UMass Amherst CS Student.
             </p>
             <p style={{fontFamily: "monospace"}}>
                 Curiosity Driven • Aspiring Software Engineer
