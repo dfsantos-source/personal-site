@@ -2,7 +2,7 @@ import React from "react"
 
 function Projects() {
     return (
-        <div id="projects projects-id" className="projects element section">
+        <div id="project-id" className="projects element section">
             <h1  className="projects-intro" id="projects">Projects</h1>
             <hr></hr>
             <div className="speech-app"> 

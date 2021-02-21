@@ -1,4 +1,4 @@
-@media (max-width:620px) {
+@media (max-width:820px) {
   /* For mobile phones: */
   html {
     font-size: 12px;
@@ -15,6 +15,31 @@
 
   #projects {
     max-height: 25%;
+  }
+
+  #line-1-id {
+    margin-left: -3em;
+    font-size: 100%;
+  }
+
+  #experience-id {
+    background-size: 35%;
+    background-position-y: bottom;
+  }
+
+  #contactme-id {
+    background-size: 30%;
+    background-position-y: bottom;
+  }
+
+  #project-id {
+    background-size: 35%;
+    background-position-y: bottom;
+  }
+
+  #skills-id {
+    background-size: 35%;
+    background-position-y: bottom;
   }
 }
 
@@ -36,7 +61,7 @@ body {
 }
 
 .navbar {
-  background-color: #25343D;
+  background-color: #292929;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -146,6 +171,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 4em;
 }
 
 .greeting {
@@ -172,6 +198,13 @@ body {
 .name-big {
   font-size: 5em;
   color: rgb(255, 198, 11);
+}
+
+.icon {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+
 }
 
 
@@ -211,47 +244,99 @@ body {
 .bio {
   background-color: rgb(255, 255, 255);
   color: black;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 25%;
+  padding-right: 25%;
   padding-top: 6em;
   padding-bottom: 7em;
 }
 
 .experience {
   background-color: rgb(250 , 250, 250 );
+  background-image: url("image-pair-programming.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 20%;
+  background-position-x: 97%;
+  background-position-y: center;
   color: black;
   padding-top: 5em;
   padding-bottom: 6em;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.bio-content {
 }
 
 .projects {
   background-color: rgb(255, 255, 255);
+  background-image: url("image-dev-activity.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 20%;
+  background-position-x: 3%;
+  background-position-y: center;
   color: black;
   padding-top: 5em;
   padding-bottom: 6em;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 .skills {
   background-color: rgb(250 , 250, 250 );
+  background-image: url("image-version-control.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 20%;
+  background-position-x: 97%;
+  background-position-y: center;
   color:black;
-  padding-left: 20%;
-  padding-right: 20%;  
+  padding-left: 25%;
+  padding-right: 25%;  
   padding-top: 5em;
   padding-bottom: 6em;
 }
 
 .contact-me {
   background-color: rgb(255 , 255, 255 );
+  background-image: url("image-team-chat.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 15%;
+  background-position-x: 6%;
+  background-position-y: center;
   color: black;
   text-align: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 25%;
+  padding-right: 25%;
   padding-top: 4em;
   padding-bottom: 4em;
+}
+
+.line-1{
+  font-family: Consolas;
+  font-size: 130%;
+  position: relative;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden; 
+}
+
+/* Animation */
+.anim-typewriter{
+animation: typewriter 4s steps(44) 0.5s 1 normal both,
+           blinkTextCursor 700ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 49ch;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
 }
 
 

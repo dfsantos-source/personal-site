@@ -5,6 +5,7 @@ function Bio() {
         <div id="bio bio-id" className="bio element header">
             <div data-aos="fade-in" className="divider">
             <img className="profile-pic"  src="pfp.jpg" alt="profile-pic"/>
+            <div className="bio-content">
             <p>
             Hi, I'm Dane. I am currently a second-year student at the University of Massachusetts
             - Amherst, currently pursuing a B.S in Computer Science.
@@ -18,6 +19,7 @@ function Bio() {
             Curiosity driven. Always on the lookout for new opportunites for  projects, programs, 
             and positions, to further pursue my passion for Computer Science.
             </p>
+            </div>
             </div>
         </div>
     )

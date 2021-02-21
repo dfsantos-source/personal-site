@@ -5,8 +5,8 @@ import React from "react"
 
 function Experience() {
     return(
-        <div  className="element section experience">
-            <h1  className="experience-intro" id="experience">Experience</h1>
+        <div id="experience-id" className="element section experience">
+            <h1  className="experience-intro">Experience</h1>
             <hr></hr>
             <div className="speech-app"> 
             <div>
@@ -31,7 +31,6 @@ function Experience() {
             </ul>
             </div>
             </div>
-            
         </div>
     )
 }
