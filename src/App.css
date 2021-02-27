@@ -18,7 +18,7 @@
   }
 
   #line-1-id {
-    
+    font-size: 1.3em;
   }
 
   #bio-id {
@@ -387,6 +387,7 @@ body {
   text-align: center;
   white-space: nowrap;
   overflow: hidden; 
+  font-size: 2em;
 }
 
 /* Animation */
