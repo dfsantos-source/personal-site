@@ -7,7 +7,7 @@ function Bio() {
             <img className="profile-pic"  src="pfp.jpg" alt="profile-pic"/>
             <div className="bio-content">
             <p>
-            Hi, I'm Dane. I am currently a second-year student at the University of Massachusetts
+            Hi, I'm Dane. 👋 I am currently a second-year student at the University of Massachusetts
             - Amherst, currently pursuing a B.S in Computer Science.
             </p>
             <p>    
