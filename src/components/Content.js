@@ -16,9 +16,9 @@ function Content() {
         <div id="content" className="content fade-in">
             <Hero />
             <Bio />
-            <Experience />
+            {/* <Experience />
             <Projects />
-            <Skills />
+            <Skills /> */}
             <ContactMe />
         </div>
     )

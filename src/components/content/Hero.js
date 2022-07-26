@@ -7,12 +7,14 @@ function Hero() {
             <p>
             <h1 className="greeting name-big" id="start">Dane Santos</h1>
             </p>
+            <div className="hero-desc">
             <p id="line-1-id" className="anim-typewriter line-1">
-                UMass Amherst Sophomore Computer Science Student. 
+                UMass Amherst CS Student.
             </p>
-            <p style={{fontFamily: "Consolas"}}>
+            <p style={{fontFamily: "monospace"}}>
                 Curiosity Driven • Aspiring Software Engineer
             </p>
+            </div>
             </div>
         </div>
     )
